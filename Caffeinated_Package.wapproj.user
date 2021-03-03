@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\Joseph Finney\Downloads\Caffine.png</Source>
+    <SmallTileSource>C:\Users\Joseph Finney\Downloads\Caffine.png</SmallTileSource>
+    <MediumTileSource>C:\Users\Joseph Finney\Downloads\Caffine.png</MediumTileSource>
+    <WideTileSource>C:\Users\Joseph Finney\Downloads\Caffine.png</WideTileSource>
+    <LargeTileSource>C:\Users\Joseph Finney\Downloads\Caffine.png</LargeTileSource>
+    <AppIconSource>C:\Users\Joseph Finney\Downloads\Caffine.png</AppIconSource>
+    <SplashScreenSource>C:\Users\Joseph Finney\Downloads\Caffine.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\Joseph Finney\Downloads\Caffine.png</PackageLogoSource>
+    <UapAppxPackageBuildMode>StoreAndSideload</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <RemoteDebugEnabled>False</RemoteDebugEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <RemoteDebugEnabled>False</RemoteDebugEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
