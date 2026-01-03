@@ -53,7 +53,7 @@
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
-    <AppxBundlePlatforms>x86|x64|ARM64</AppxBundlePlatforms>
+    <AppxBundlePlatforms>x86|x64|arm64</AppxBundlePlatforms>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
     <EntryPointProjectUniqueName>..\Caffeinated\Caffeinated.csproj</EntryPointProjectUniqueName>
   </PropertyGroup>
@@ -144,10 +144,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ProjectReunion" Version="0.8.12" />
-    <PackageReference Include="Microsoft.Windows.Compatibility" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="10.0.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
-    <PackageReference Include="System.Formats.Asn1" Version="9.0.0" />
-    <PackageReference Include="System.IO.Packaging" Version="9.0.0" />
+    <PackageReference Include="System.Formats.Asn1" Version="10.0.1" />
+    <PackageReference Include="System.IO.Packaging" Version="10.0.1" />
     <PackageReference Include="System.Private.Uri" Version="4.3.2" />
     <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
   </ItemGroup>
